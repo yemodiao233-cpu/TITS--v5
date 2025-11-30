@@ -1,0 +1,73 @@
+Successfully imported VEC_Environment from solvers.environment
+Creating environment...
+Environment created with config: {}
+Loading solver from: solvers.OORAA_Solver.OORAA_Solver
+Solver loaded successfully: OORAA_Solver
+Running simulation...
+[solvers.OORAA_Solver.OORAA_Solver] slot 1/5  avgQ_snapshot=0.000  last_cost=0.0000  solve_ms=275.48
+[solvers.OORAA_Solver.OORAA_Solver] slot 2/5  avgQ_snapshot=0.000  last_cost=0.0815  solve_ms=182.12
+[solvers.OORAA_Solver.OORAA_Solver] slot 3/5  avgQ_snapshot=0.000  last_cost=4.8000  solve_ms=165.06
+[solvers.OORAA_Solver.OORAA_Solver] slot 4/5  avgQ_snapshot=0.000  last_cost=2.7943  solve_ms=164.68
+[solvers.OORAA_Solver.OORAA_Solver] slot 5/5  avgQ_snapshot=0.000  last_cost=2.1613  solve_ms=173.52
+Simulation completed for solver: solvers.OORAA_Solver.OORAA_Solver
+
+Solver solvers.OORAA_Solver.OORAA_Solver finished 5 slots in 0.96s
+Saved per-slot minimal CSV to logs\solvers_OORAA_Solver_OORAA_Solver\per_slot_minimal.csv
+Saved summary.json to logs\solvers_OORAA_Solver_OORAA_Solver
+
+════════════════════════════════════════════════════════════════════════════════════════════
+[107m[30m[1m                     🔥 Solver 4/5: solvers.OORAA_Solver.OORAA_Solver 🔥                     [0m
+════════════════════════════════════════════════════════════════════════════════════════════
+
+[96m========== 基本信息 Basic Info ==========[0m
+  • 时隙数 Slots                      :   5 
+  • 总运行时长 Runtime                  :   0.963 s
+
+[96m========== 成本与能耗 Cost & Energy ==========[0m
+  • 平均系统成本 C_mean                  :   1.967423 
+  • 成本标准差 C_std                    :   1.798486 
+  • 能耗总计 E_total                   :   9.837113 
+  • Tx 能耗                          :   9.837113 
+  • CPU 能耗                         :   0.000000 
+  • 能耗/任务                          :   1.405302 
+  • 能耗/bit                         :   0.000000542 
+  • 能效 EE(bit/J)                   :   1845194.339990 
+
+[96m========== 端到端时延 Delay ==========[0m
+  • 平均时延 mean                      :   2.459929 s
+  • 中位数时延 median                   :   2.795082 s
+  • 95% 时延                         :   2.795082 s
+  • 99% 时延                         :   -
+  • SLA违约率                         :   0.7500 
+
+[96m========== 服务质量 QoS ==========[0m
+  • 平均队列长度                         :   0.000000 
+  • 接收率 Acc_rate                   :   0.4667 
+  • 丢弃率 Drop_rate                  :   1.0667 
+
+[96m========== 资源利用率 Resource Utilization ==========[0m
+  • CPU 使用率                        :   -
+  • 带宽使用率                          :   -
+  • Cloud 使用率                      :   0.000000 
+
+[96m========== 移动性 Mobility ==========[0m
+  • 切换次数 Handover                  :   5 
+  • 迁移频率                           :   -
+  • 迁移成本                           :   -
+
+[96m========== 可用性 Availability ==========[0m
+  • Availability                   :   -
+
+[96m========== 吞吐量 Throughput ==========[0m
+  • 有效比特数                          :   -
+
+[96m========== 复杂度 Complexity ==========[0m
+  • 平均 Ops                         :   -
+  • Ops 总量                         :   -
+
+[96m========== 决策性能 Runtime ==========[0m
+  • 平均决策时间                         :   192.173 ms
+  • 最大决策时间                         :   275.483 ms
+
+────────────────────────────────────────────────────────────────────────────────────────────
+

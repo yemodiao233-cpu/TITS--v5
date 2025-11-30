@@ -1,0 +1,73 @@
+Successfully imported VEC_Environment from solvers.environment
+Creating environment...
+Environment created with config: {}
+Loading solver from: solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter
+Solver loaded successfully: A3C_GCN_Seq2Seq_Adapter
+Running simulation...
+[solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter] slot 1/5  avgQ_snapshot=0.000  last_cost=4.2134  solve_ms=0.00
+[solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter] slot 2/5  avgQ_snapshot=0.000  last_cost=1.3976  solve_ms=0.00
+[solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter] slot 3/5  avgQ_snapshot=0.000  last_cost=1.9835  solve_ms=0.00
+[solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter] slot 4/5  avgQ_snapshot=0.000  last_cost=2.4639  solve_ms=0.00
+[solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter] slot 5/5  avgQ_snapshot=0.000  last_cost=1.3944  solve_ms=0.00
+Simulation completed for solver: solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter
+
+Solver solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter finished 5 slots in 0.00s
+Saved per-slot minimal CSV to logs\solvers_A3C_GCN_Seq2Seq_Adapter_A3C_GCN_Seq2Seq_Adapter\per_slot_minimal.csv
+Saved summary.json to logs\solvers_A3C_GCN_Seq2Seq_Adapter_A3C_GCN_Seq2Seq_Adapter
+
+════════════════════════════════════════════════════════════════════════════════════════════
+[107m[30m[1m          🔥 Solver 2/5: solvers.A3C_GCN_Seq2Seq_Adapter.A3C_GCN_Seq2Seq_Adapter 🔥          [0m
+════════════════════════════════════════════════════════════════════════════════════════════
+
+[96m========== 基本信息 Basic Info ==========[0m
+  • 时隙数 Slots                      :   5 
+  • 总运行时长 Runtime                  :   0.001 s
+
+[96m========== 成本与能耗 Cost & Energy ==========[0m
+  • 平均系统成本 C_mean                  :   2.290545 
+  • 成本标准差 C_std                    :   1.041349 
+  • 能耗总计 E_total                   :   11.452725 
+  • Tx 能耗                          :   11.452725 
+  • CPU 能耗                         :   0.000000 
+  • 能耗/任务                          :   0.763515 
+  • 能耗/bit                         :   0.000000503 
+  • 能效 EE(bit/J)                   :   1989284.120797 
+
+[96m========== 端到端时延 Delay ==========[0m
+  • 平均时延 mean                      :   4.581690 s
+  • 中位数时延 median                   :   3.967579 s
+  • 95% 时延                         :   4.928356 s
+  • 99% 时延                         :   -
+  • SLA违约率                         :   1.0000 
+
+[96m========== 服务质量 QoS ==========[0m
+  • 平均队列长度                         :   0.000000 
+  • 接收率 Acc_rate                   :   1.0000 
+  • 丢弃率 Drop_rate                  :   0.0000 
+
+[96m========== 资源利用率 Resource Utilization ==========[0m
+  • CPU 使用率                        :   -
+  • 带宽使用率                          :   -
+  • Cloud 使用率                      :   0.000000 
+
+[96m========== 移动性 Mobility ==========[0m
+  • 切换次数 Handover                  :   0 
+  • 迁移频率                           :   -
+  • 迁移成本                           :   -
+
+[96m========== 可用性 Availability ==========[0m
+  • Availability                   :   -
+
+[96m========== 吞吐量 Throughput ==========[0m
+  • 有效比特数                          :   -
+
+[96m========== 复杂度 Complexity ==========[0m
+  • 平均 Ops                         :   -
+  • Ops 总量                         :   -
+
+[96m========== 决策性能 Runtime ==========[0m
+  • 平均决策时间                         :   0.000 ms
+  • 最大决策时间                         :   0.000 ms
+
+────────────────────────────────────────────────────────────────────────────────────────────
+

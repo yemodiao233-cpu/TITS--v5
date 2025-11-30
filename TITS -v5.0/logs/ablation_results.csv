@@ -1,0 +1,4 @@
+Method,avg_cost,energy_per_task,completion_rate
+Full method,13.6,0.56,0.92
+w/o Module A,14.2,0.6,0.89
+w/o Module B,14.0,0.58,0.9

@@ -1,0 +1,37 @@
+ # 记录每个算法的折线图可视化
+        def plot_metrics(results: dict):
+            plt.figure(figsize=(10, 6))
+
+            for solver_name, df in results.items():
+                if 'total_cost' not in df.columns:
+                    continue
+                plt.plot(df['total_cost'], marker='o', label=f"{solver_name} total_cost")
+
+            plt.xlabel("Time slot")
+            plt.ylabel("Total Cost")
+            plt.title("Total Cost Over Time (per algorithm)")
+            plt.legend()
+            plt.grid(True)
+            plt.tight_layout()
+            plt.savefig("total_cost_plot.png", dpi=300)
+            plt.show()
+
+            # 队列长度可视化
+            plt.figure(figsize=(10, 6))
+            for solver_name, df in results.items():
+                if 'queue_lengths' not in df.columns:
+                    continue
+
+                queue_vals = df['queue_lengths'].apply(lambda x: sum(x) if isinstance(x, (list, tuple)) else x)
+                plt.plot(queue_vals, marker='o', label=f"{solver_name} total_queue")
+
+            plt.xlabel("Time slot")
+            plt.ylabel("Total Queue Length")
+            plt.title("Queue Length Over Time")
+            plt.legend()
+            plt.grid(True)
+            plt.tight_layout()
+            plt.savefig("queue_length_plot.png", dpi=300)
+            plt.show()
+
+        plot_metrics(results)

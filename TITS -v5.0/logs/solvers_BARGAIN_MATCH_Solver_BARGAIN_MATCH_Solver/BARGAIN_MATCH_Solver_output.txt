@@ -1,0 +1,73 @@
+Successfully imported VEC_Environment from solvers.environment
+Creating environment...
+Environment created with config: {}
+Loading solver from: solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver
+Solver loaded successfully: BARGAIN_MATCH_Solver
+Running simulation...
+[solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver] slot 1/5  avgQ_snapshot=0.000  last_cost=0.0000  solve_ms=1.02
+[solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver] slot 2/5  avgQ_snapshot=0.000  last_cost=0.0000  solve_ms=2.97
+[solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver] slot 3/5  avgQ_snapshot=0.000  last_cost=0.0000  solve_ms=1.01
+[solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver] slot 4/5  avgQ_snapshot=0.000  last_cost=0.0000  solve_ms=0.99
+[solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver] slot 5/5  avgQ_snapshot=0.000  last_cost=0.0000  solve_ms=2.04
+Simulation completed for solver: solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver
+
+Solver solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver finished 5 slots in 0.01s
+Saved per-slot minimal CSV to logs\solvers_BARGAIN_MATCH_Solver_BARGAIN_MATCH_Solver\per_slot_minimal.csv
+Saved summary.json to logs\solvers_BARGAIN_MATCH_Solver_BARGAIN_MATCH_Solver
+
+════════════════════════════════════════════════════════════════════════════════════════════
+[107m[30m[1m             🔥 Solver 5/5: solvers.BARGAIN_MATCH_Solver.BARGAIN_MATCH_Solver 🔥             [0m
+════════════════════════════════════════════════════════════════════════════════════════════
+
+[96m========== 基本信息 Basic Info ==========[0m
+  • 时隙数 Slots                      :   5 
+  • 总运行时长 Runtime                  :   0.008 s
+
+[96m========== 成本与能耗 Cost & Energy ==========[0m
+  • 平均系统成本 C_mean                  :   0.000027 
+  • 成本标准差 C_std                    :   0.000010 
+  • 能耗总计 E_total                   :   0.000136 
+  • Tx 能耗                          :   0.000136 
+  • CPU 能耗                         :   0.000000 
+  • 能耗/任务                          :   0.000027 
+  • 能耗/bit                         :   0.000000000 
+  • 能效 EE(bit/J)                   :   88277373820.694565 
+
+[96m========== 端到端时延 Delay ==========[0m
+  • 平均时延 mean                      :   0.102729 s
+  • 中位数时延 median                   :   0.102721 s
+  • 95% 时延                         :   0.103652 s
+  • 99% 时延                         :   -
+  • SLA违约率                         :   0.0000 
+
+[96m========== 服务质量 QoS ==========[0m
+  • 平均队列长度                         :   0.000000 
+  • 接收率 Acc_rate                   :   0.3333 
+  • 丢弃率 Drop_rate                  :   1.3333 
+
+[96m========== 资源利用率 Resource Utilization ==========[0m
+  • CPU 使用率                        :   -
+  • 带宽使用率                          :   -
+  • Cloud 使用率                      :   0.000000 
+
+[96m========== 移动性 Mobility ==========[0m
+  • 切换次数 Handover                  :   0 
+  • 迁移频率                           :   -
+  • 迁移成本                           :   -
+
+[96m========== 可用性 Availability ==========[0m
+  • Availability                   :   -
+
+[96m========== 吞吐量 Throughput ==========[0m
+  • 有效比特数                          :   -
+
+[96m========== 复杂度 Complexity ==========[0m
+  • 平均 Ops                         :   -
+  • Ops 总量                         :   -
+
+[96m========== 决策性能 Runtime ==========[0m
+  • 平均决策时间                         :   1.607 ms
+  • 最大决策时间                         :   2.967 ms
+
+────────────────────────────────────────────────────────────────────────────────────────────
+

@@ -1,0 +1,10 @@
+# Base requirements
+numpy
+scipy
+cvxpy
+
+# A3C-GCN-Seq2Seq requirements
+torch
+torch_geometric
+networkx
+gym
